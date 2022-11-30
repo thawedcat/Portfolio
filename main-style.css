@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 2000px;
+}
+
+
+body{
+    background-color: rgb(214, 205, 205);
+}
+
+#navbar {   
+    padding: 10px;
+    box-shadow: 0px 0.22px 1px grey;
+}
+#section1{ 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#section2 {
+    margin-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+#pImage {
+    float: right;
+    width: 230px;
+    border-radius: 80px;
+    box-shadow: 3px 6px 4px darkslategrey;
+    transition: all 0.5s ease-in-out;
+}
+#pImage:hover {
+    transform:translateY(-20px);
+    box-shadow: 5px 8px 6px darkslategrey;
+}
+#section3 {
+    margin-top: 3opx;
+    padding: 20px
+}
+#s3{
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    
+}
+
+#blog{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#card{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    background-color: rgb(214, 205, 205); 
+    box-shadow: 3px 6px 4px darkslategrey;
+    transition: all 0.5s ease-in-out;
+}
+#card:hover {
+    transform:translateY(25px);
+}
+#card > img{
+    border-radius: 100px;
+}
+#card > a {
+    border-radius: 100px;
+}
+#section3{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#card-container > .row > h2 {
+    text-align: center;
+
+}
+#Bcard{
+    border-radius:50px;
+    background-color: rgb(214, 205, 205);
+    box-shadow: 1px 6px 4px darkslategrey; 
+}
+#Bcard > a{
+    border-radius: 40px;
+}
+#footer {
+    margin-top: 50px;
+    padding-top: 50px;
+    box-shadow: 0px 100px 100px black;
+}
+
+
+#home {
+    float: right;
+    padding: 20px;
+}
+
+
